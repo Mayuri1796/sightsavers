@@ -130,6 +130,7 @@
     text-align: center;
   }
   .sightsaver .timeline-bg .timeline .timeline-scroll {
+    touch-action: auto !important;
     overflow: scroll;
   }
   .sightsaver .visionary_support .icons .three_column {

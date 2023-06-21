@@ -177,6 +177,7 @@
     .timeline-bg {
       .timeline {
         .timeline-scroll {
+          touch-action: auto !important;
           overflow: scroll;
         }
       }
