@@ -106,6 +106,9 @@
   .sightsaver .banner .background .banner_cards .card_section {
     display: block;
   }
+  .sightsaver .banner .background .banner_cards .card_section .card {
+    margin: 10px 0;
+  }
   .sightsaver .banner .background .banner_cards .card_section .card3,
   .sightsaver .banner .background .banner_cards .card_section .card4,
   .sightsaver .banner .background .banner_cards .card_section .card5,
