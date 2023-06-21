@@ -435,29 +435,35 @@ CIRCLE ANIMATION
 }
 /* TIMELINE
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.timeline {
+.timeline-bg {
+  background: linear-gradient(0deg, rgba(30, 30, 31, 0.7803921569), rgba(72, 63, 63, 0.5882352941)), url(../img/timeline-bg.jpg) center center no-repeat;
+  background-size: cover;
+  z-index: 0;
+  position: relative;
+}
+.timeline-bg .timeline {
   white-space: nowrap;
   overflow: hidden;
 }
-.timeline > ol {
+.timeline-bg .timeline > ol {
   font-size: 0;
   width: 100%;
   padding: 250px 50px;
   transition: all 1s;
 }
-.timeline > ol > li {
+.timeline-bg .timeline > ol > li {
   position: relative;
   display: inline-block;
   list-style-type: none;
   width: 100px;
   height: 3px;
-  background: #000;
+  background: #fff;
   padding-bottom: 0;
 }
-.timeline > ol > li:not(:first-child) {
+.timeline-bg .timeline > ol > li:not(:first-child) {
   margin-left: 14px;
 }
-.timeline > ol > li:not(:last-child) span.show-info {
+.timeline-bg .timeline > ol > li:not(:last-child) span.show-info {
   content: "";
   cursor: pointer;
   position: absolute;
@@ -468,9 +474,9 @@ CIRCLE ANIMATION
   height: 12px;
   transform: translateY(-50%);
   border-radius: 50%;
-  background: #403a60;
+  background: #feca01;
 }
-.timeline > ol > li:not(:last-child) .just-date {
+.timeline-bg .timeline > ol > li:not(:last-child) .just-date {
   position: absolute;
   height: auto;
   opacity: 1;
@@ -478,42 +484,45 @@ CIRCLE ANIMATION
   top: -35px;
   z-index: -1;
 }
-.timeline > ol > li:not(:last-child) .just-date p {
-  font-size: 13px;
-  font-weight: 600;
+.timeline-bg .timeline > ol > li:not(:last-child) .just-date p {
+  font-size: 16px !important;
+  font-weight: normal;
+  font-family: Lato, sans-serif;
+  text-align: center;
+  color: #fff;
 }
-.timeline > ol > li:not(:last-child) .para {
+.timeline-bg .timeline > ol > li:not(:last-child) .para {
   margin-top: -11px;
 }
-.timeline > ol > li:nth-child(odd) .just-date {
+.timeline-bg .timeline > ol > li:nth-child(odd) .just-date {
   top: 14px;
 }
-.timeline > ol > li:nth-child(odd) div.info-container {
+.timeline-bg .timeline > ol > li:nth-child(odd) div.info-container {
   top: -90px;
   transform: translateY(-100%);
   border-radius: 20px 0;
   left: 0;
 }
-.timeline > ol > li:nth-child(odd) div.info-container::before {
+.timeline-bg .timeline > ol > li:nth-child(odd) div.info-container::before {
   top: 100%;
   border-width: 8px 8px 0 0;
-  border-color: white transparent transparent transparent;
+  border-color: #feca01 transparent transparent transparent;
 }
-.timeline > ol > li:nth-child(even) .just-date {
+.timeline-bg .timeline > ol > li:nth-child(even) .just-date {
   top: -65px;
   left: 60px;
 }
-.timeline > ol > li:nth-child(even) div.info-container {
+.timeline-bg .timeline > ol > li:nth-child(even) div.info-container {
   top: calc(100% + 90px);
   border-radius: 0 20px;
   left: 0;
 }
-.timeline > ol > li:nth-child(even) div.info-container::before {
+.timeline-bg .timeline > ol > li:nth-child(even) div.info-container::before {
   top: -8px;
   border-width: 8px 0 0 8px;
-  border-color: transparent transparent transparent white;
+  border-color: transparent transparent transparent #feca01;
 }
-.timeline > ol > li div.info-container {
+.timeline-bg .timeline > ol > li div.info-container {
   position: absolute;
   left: calc(100% + 7px);
   width: 250px;
@@ -525,7 +534,7 @@ CIRCLE ANIMATION
   opacity: 0;
   transition: opacity 0.2s ease-in-out;
 }
-.timeline > ol > li div.info-container::before {
+.timeline-bg .timeline > ol > li div.info-container::before {
   content: "";
   position: absolute;
   top: 100%;
@@ -534,7 +543,7 @@ CIRCLE ANIMATION
   height: 0;
   border-style: solid;
 }
-.timeline time:not(.date) {
+.timeline-bg .timeline time:not(.date) {
   display: block;
   font-size: 1.2rem;
   font-weight: bold;
