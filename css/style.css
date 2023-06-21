@@ -445,9 +445,6 @@ CIRCLE ANIMATION
   white-space: nowrap;
   overflow: hidden;
 }
-.timeline-bg .timeline .timeline-scroll {
-  touch-action: auto !important;
-}
 .timeline-bg .timeline > ol {
   font-size: 0;
   width: 100%;

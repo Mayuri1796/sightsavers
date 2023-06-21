@@ -536,9 +536,9 @@ CIRCLE ANIMATION
   .timeline {
     white-space: nowrap;
     overflow: hidden;
-    .timeline-scroll {
-      touch-action: auto !important;
-    }
+    // .timeline-scroll {
+    //   touch-action: auto !important;
+    // }
     & > ol {
       font-size: 0;
       width: 100%;

@@ -45,6 +45,9 @@
   .sightsaver .banner .background .banner_cards .card_section .card7 .card-body {
     text-align: center;
   }
+  .sightsaver .timeline-bg .timeline .timeline-scroll {
+    overflow: scroll;
+  }
   .sightsaver .visionary_support .icons .three_column {
     height: 400px;
   }
@@ -129,6 +132,9 @@
   .sightsaver .banner .background .banner_cards .card_section .card7 .card-body {
     text-align: center;
   }
+  .sightsaver .timeline-bg .timeline .timeline-scroll {
+    overflow: scroll;
+  }
   .sightsaver .visionary_support .icons .three_column {
     margin-top: 15px;
   }
@@ -204,5 +210,8 @@
   }
   .sightsaver .banner .background .banner_cards .card_section .card6 .card-body .card_btn {
     padding: 18px 61px;
+  }
+  .sightsaver .timeline-bg .timeline .timeline-scroll {
+    overflow: scroll;
   }
 }/*# sourceMappingURL=responsive.css.map */
