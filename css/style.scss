@@ -536,6 +536,9 @@ CIRCLE ANIMATION
   .timeline {
     white-space: nowrap;
     overflow: hidden;
+    .timeline-scroll {
+      touch-action: auto !important;
+    }
     & > ol {
       font-size: 0;
       width: 100%;
@@ -824,7 +827,3 @@ nav.archive-links ol.ol-events li.active a .main-image:after,
 nav.archive-links ol.ol-events li.active a .no-main-image:after {
   color: #777;
 }
-
-// .timeline-scroll {
-//   touch-action: pan-right !important;
-// }
