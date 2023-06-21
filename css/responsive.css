@@ -92,9 +92,9 @@
     margin: 20px 13px;
   }
 }
-@media screen and (max-width: 820px) {
+@media screen and (min-width: 768px) {
   .sightsaver .timeline {
-    overflow-x: scroll;
+    touch-action: auto;
   }
 }
 @media screen and (max-width: 767px) {
@@ -184,14 +184,10 @@
     margin: 20px 13px;
   }
 }
-/* @media only screen and (max-width: 479px){
-.sightsaver .timeline {
-  overflow-x: scroll;
-}
-} */
-
 @media screen and (min-width: 425px) {
- 
+  .sightsaver .timeline-bg .timeline {
+    touch-action: auto;
+  }
   .sightsaver .wall_of_visionaries .card_section .card-img1 img {
     margin-top: 0;
   }
@@ -217,7 +213,7 @@
   .sightsaver .banner .background .banner_cards .card_section .card6 .card-body .card_btn {
     padding: 18px 61px;
   }
-  /* .sightsaver .timeline {
-    overflow-x: scroll;
-  } */
+  .sightsaver .timeline-bg .timeline {
+    touch-action: auto;
+  }
 }/*# sourceMappingURL=responsive.css.map */

@@ -1,29 +1,23 @@
 @charset "UTF-8";
 body {
   background-color: #fff !important;
-  font-family: Lato,sans-serif;
 }
 
 p {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   line-height: 30px;
   color: #000;
-  font-family: Lato,sans-serif;
 }
 
 h2 {
   color: #403a60;
   padding: 70px 0 20px;
-  font-family: Lato,sans-serif;
-  font-weight: 700 !important;
 }
 
 li {
-  font-size: 18px;
   color: #000;
   padding-bottom: 15px;
-  font-family: Lato,sans-serif;
 }
 
 .btn1 {
@@ -51,19 +45,17 @@ li {
 
 .sightsaver_main .navbar {
   display: block;
-  background: #f0f1f3;
 }
 .sightsaver_main .navbar .navbar-brand img {
   width: 200px;
 }
-
+.sightsaver_main .navbar a {
+  font-size: 18px;
+  font-weight: 400;
+}
 .sightsaver_main .navbar .nav-item a {
   padding-top: 29px;
   color: #000;
-  font-family: Lato,sans-serif;
-  font-weight: 600;
-  font-size: 18px;
-
 }
 .sightsaver .banner .background {
   text-align: center;
@@ -202,7 +194,7 @@ li {
   font-size: 18px;
 }
 .sightsaver .about_us {
-  padding: 80px 0;
+  padding: 60px 0;
 }
 .sightsaver .about_us .right h2 {
   color: #feca01;
@@ -210,7 +202,7 @@ li {
 }
 .sightsaver .visionary {
   background: #403a60;
-  padding: 80px 0;
+  padding: 50px 0;
 }
 .sightsaver .visionary .right_text {
   color: #fff;
@@ -224,10 +216,6 @@ li {
 .sightsaver .visionary .right_text ul li {
   list-style-type: disc;
   color: #fff;
-}
-
-.sightsaver .visionary_support{
-  padding-bottom: 60px;
 }
 .sightsaver .visionary_support .icons {
   padding: 30px 0;
@@ -349,7 +337,7 @@ li {
   font-weight: 600;
 }
 .sightsaver .wall_of_visionaries {
-  padding: 50px 0 80px;
+  padding: 50px 0 100px;
 }
 .sightsaver .wall_of_visionaries .text {
   text-align: center;
@@ -463,7 +451,7 @@ CIRCLE ANIMATION
   list-style-type: none;
   width: 100px;
   height: 3px;
-  background: #fff;
+  background: #000;
   padding-bottom: 0;
 }
 .timeline > ol > li:not(:first-child) {
@@ -480,7 +468,7 @@ CIRCLE ANIMATION
   height: 12px;
   transform: translateY(-50%);
   border-radius: 50%;
-  background: #feca01;
+  background: #403a60;
 }
 .timeline > ol > li:not(:last-child) .just-date {
   position: absolute;
@@ -491,11 +479,8 @@ CIRCLE ANIMATION
   z-index: -1;
 }
 .timeline > ol > li:not(:last-child) .just-date p {
-  font-size: 16px !important;
-  font-weight: normal;
-  font-family: Lato,sans-serif;
-  text-align: center;
-  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
 }
 .timeline > ol > li:not(:last-child) .para {
   margin-top: -11px;
@@ -512,7 +497,7 @@ CIRCLE ANIMATION
 .timeline > ol > li:nth-child(odd) div.info-container::before {
   top: 100%;
   border-width: 8px 8px 0 0;
-  border-color: #feca01 transparent transparent transparent;
+  border-color: white transparent transparent transparent;
 }
 .timeline > ol > li:nth-child(even) .just-date {
   top: -65px;
@@ -526,7 +511,7 @@ CIRCLE ANIMATION
 .timeline > ol > li:nth-child(even) div.info-container::before {
   top: -8px;
   border-width: 8px 0 0 8px;
-  border-color: transparent transparent transparent #feca01;
+  border-color: transparent transparent transparent white;
 }
 .timeline > ol > li div.info-container {
   position: absolute;
@@ -556,14 +541,6 @@ CIRCLE ANIMATION
   margin-bottom: 8px;
 }
 
-.timeline-bg{
-  /* background: url('../img/timeline-bg.jpg') center center no-repeat; */
-  background: linear-gradient(0deg, #1e1e1fc7, #483f3f96), url("../img/timeline-bg.jpg") center center no-repeat;
-  background-size: cover;
-  z-index: 0;
-  position: relative;
-
-}
 /* EVENTS SECTION
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 nav.archive-links {
@@ -715,9 +692,8 @@ nav.archive-links ol.ol-events li a:active .no-main-image:after,
 nav.archive-links ol.ol-events li.active a .main-image:after,
 nav.archive-links ol.ol-events li.active a .no-main-image:after {
   color: #777;
-}/*# sourceMappingURL=style.css.map */
+}
 
-
-.timeline-scroll{
+.timeline-scroll {
   touch-action: pan-right !important;
-  }
+}/*# sourceMappingURL=style.css.map */

@@ -124,13 +124,13 @@
     }
   }
 }
-// @media screen and (min-width: 768px) {
-//   .sightsaver {
-//     .timeline {
-//       overflow-x: scroll;
-//     }
-//   }
-// }
+@media screen and (min-width: 768px) {
+  .sightsaver {
+    .timeline {
+      touch-action: auto;
+    }
+  }
+}
 @media screen and (max-width: 767px) {
   .sightsaver {
     .banner {
@@ -248,9 +248,11 @@
 }
 @media screen and (min-width: 425px) {
   .sightsaver {
-    // .timeline {
-    //   overflow-x: scroll;
-    // }
+    .timeline-bg {
+      .timeline {
+        touch-action: auto;
+      }
+    }
     .wall_of_visionaries {
       .card_section {
         .card-img1 {
@@ -303,8 +305,10 @@
         }
       }
     }
-    // .timeline {
-    //   overflow-x: scroll;
-    // }
+    .timeline-bg {
+      .timeline {
+        touch-action: auto;
+      }
+    }
   }
 }
