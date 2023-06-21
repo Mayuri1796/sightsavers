@@ -1,0 +1,223 @@
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .sightsaver .banner .background_text h1 {
+    padding: 0 190px;
+  }
+  .sightsaver .footer_links {
+    padding: 30px 40px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .sightsaver .banner .background_text h1 {
+    font-size: 45px;
+    padding: 0;
+  }
+  .sightsaver .banner .background_text .button_group .btn2 {
+    padding: 15px 29px;
+  }
+  .sightsaver .banner .background .banner_cards {
+    margin-top: 80px;
+    -moz-columns: 2;
+         columns: 2;
+  }
+  .sightsaver .banner .background .banner_cards .card_section {
+    display: block;
+  }
+  .sightsaver .banner .background .banner_cards .card_section .card3,
+  .sightsaver .banner .background .banner_cards .card_section .card4,
+  .sightsaver .banner .background .banner_cards .card_section .card5,
+  .sightsaver .banner .background .banner_cards .card_section .card6 {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .sightsaver .banner .background .banner_cards .card_section .card3 .card-body,
+  .sightsaver .banner .background .banner_cards .card_section .card4 .card-body,
+  .sightsaver .banner .background .banner_cards .card_section .card5 .card-body,
+  .sightsaver .banner .background .banner_cards .card_section .card6 .card-body {
+    text-align: center;
+  }
+  .sightsaver .banner .background .banner_cards .card_section .card1,
+  .sightsaver .banner .background .banner_cards .card_section .card2,
+  .sightsaver .banner .background .banner_cards .card_section .card7 {
+    width: 100%;
+  }
+  .sightsaver .banner .background .banner_cards .card_section .card1 .card-body,
+  .sightsaver .banner .background .banner_cards .card_section .card2 .card-body,
+  .sightsaver .banner .background .banner_cards .card_section .card7 .card-body {
+    text-align: center;
+  }
+  .sightsaver .visionary_support .icons .three_column {
+    height: 400px;
+  }
+  .sightsaver .wall_of_visionaries .text h6 {
+    font-size: 70px;
+    padding: 0 160px;
+  }
+  .sightsaver .wall_of_visionaries .text h5 {
+    font-size: 22px;
+    padding: 0px 20px;
+  }
+  .sightsaver .wall_of_visionaries .card_section .card-img1 img {
+    top: 150px;
+    left: 60px;
+    margin-top: 25px;
+  }
+  .sightsaver .wall_of_visionaries .card_section .card-img2 img {
+    top: 287px;
+    left: 115px;
+    margin-top: 25px;
+  }
+  .sightsaver .wall_of_visionaries .card_section .card-img3 img {
+    top: 130px;
+    right: 56px;
+    margin-top: 25px;
+  }
+  .sightsaver .wall_of_visionaries .card_section .card-img4 img {
+    bottom: -153px;
+    right: 80px;
+    margin-top: 25px;
+  }
+  .sightsaver .village_profiles {
+    padding: 60px 0 70px;
+  }
+  .sightsaver .footer .logo_icons {
+    display: block;
+  }
+  .sightsaver .footer_links {
+    padding: 25px 0;
+  }
+  .sightsaver .footer_links h5 {
+    font-size: 24px;
+  }
+  .sightsaver .footer .social_icons {
+    margin: 20px 13px;
+  }
+}
+@media screen and (max-width: 820px) {
+  .sightsaver .timeline {
+    overflow-x: scroll;
+  }
+}
+@media screen and (max-width: 767px) {
+  .sightsaver .banner .background_text h1 {
+    font-size: 45px;
+    padding: 0;
+  }
+  .sightsaver .banner .background_text .button_group .btn2 {
+    padding: 15px 29px;
+  }
+  .sightsaver .banner .background .banner_cards {
+    margin-top: 80px;
+  }
+  .sightsaver .banner .background .banner_cards .card_section {
+    display: block;
+  }
+  .sightsaver .banner .background .banner_cards .card_section .card3,
+  .sightsaver .banner .background .banner_cards .card_section .card4,
+  .sightsaver .banner .background .banner_cards .card_section .card5,
+  .sightsaver .banner .background .banner_cards .card_section .card6 {
+    margin-top: 10px;
+    width: 100%;
+  }
+  .sightsaver .banner .background .banner_cards .card_section .card3 .card-body,
+  .sightsaver .banner .background .banner_cards .card_section .card4 .card-body,
+  .sightsaver .banner .background .banner_cards .card_section .card5 .card-body,
+  .sightsaver .banner .background .banner_cards .card_section .card6 .card-body {
+    text-align: center;
+  }
+  .sightsaver .banner .background .banner_cards .card_section .card1,
+  .sightsaver .banner .background .banner_cards .card_section .card2,
+  .sightsaver .banner .background .banner_cards .card_section .card7 {
+    width: 100%;
+  }
+  .sightsaver .banner .background .banner_cards .card_section .card1 .card-body,
+  .sightsaver .banner .background .banner_cards .card_section .card2 .card-body,
+  .sightsaver .banner .background .banner_cards .card_section .card7 .card-body {
+    text-align: center;
+  }
+  .sightsaver .visionary_support .icons .three_column {
+    margin-top: 15px;
+  }
+  .sightsaver .wall_of_visionaries .text h6 {
+    font-size: 70px;
+  }
+  .sightsaver .wall_of_visionaries .text h5 {
+    font-size: 20px;
+    padding: 0px 20px;
+  }
+  .sightsaver .wall_of_visionaries .card_section .card-img1 img {
+    top: 330px;
+    left: 60px;
+    margin-top: 25px;
+  }
+  .sightsaver .wall_of_visionaries .card_section .card-img2 img {
+    top: 482px;
+    left: 60px;
+    margin-top: 25px;
+  }
+  .sightsaver .wall_of_visionaries .card_section .card-img3 img {
+    bottom: 0;
+    top: 482px;
+    right: 56px;
+    margin-top: 25px;
+  }
+  .sightsaver .wall_of_visionaries .card_section .card-img4 img {
+    bottom: -168px;
+    right: 56px;
+    margin-top: 25px;
+  }
+  .sightsaver .village_profiles {
+    padding: 245px 0 70px;
+  }
+  .sightsaver .footer .logo_icons {
+    display: block;
+  }
+  .sightsaver .footer_links {
+    padding: 25px 0;
+  }
+  .sightsaver .footer_links h5 {
+    font-size: 24px;
+  }
+  .sightsaver .footer_links .info {
+    padding-top: 25px;
+  }
+  .sightsaver .footer .social_icons {
+    margin: 20px 13px;
+  }
+}
+/* @media only screen and (max-width: 479px){
+.sightsaver .timeline {
+  overflow-x: scroll;
+}
+} */
+
+@media screen and (min-width: 425px) {
+ 
+  .sightsaver .wall_of_visionaries .card_section .card-img1 img {
+    margin-top: 0;
+  }
+}
+@media (max-width: 460px) {
+  .timeline > li > p {
+    font-size: 14px;
+    text-transform: capitalize !important;
+    padding: 15px 15px;
+    line-height: 17px;
+  }
+  .two {
+    transform: translate(4px, -317px);
+  }
+}
+@media screen and (min-width: 375px) {
+  .sightsaver .banner .background .banner_cards .card_section .card1 .card-body .card_btn {
+    padding: 18px 61px;
+  }
+  .sightsaver .banner .background .banner_cards .card_section .card4 .card-body {
+    padding: 84px 20px 15px;
+  }
+  .sightsaver .banner .background .banner_cards .card_section .card6 .card-body .card_btn {
+    padding: 18px 61px;
+  }
+  /* .sightsaver .timeline {
+    overflow-x: scroll;
+  } */
+}/*# sourceMappingURL=responsive.css.map */

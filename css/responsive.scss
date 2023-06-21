@@ -1,0 +1,310 @@
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+  .sightsaver {
+    .banner {
+      .background_text {
+        h1 {
+          padding: 0 190px;
+        }
+      }
+    }
+    .footer_links {
+      padding: 30px 40px;
+    }
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .sightsaver {
+    .banner {
+      .background {
+        &_text {
+          h1 {
+            font-size: 45px;
+            padding: 0;
+          }
+          .button_group {
+            .btn2 {
+              padding: 15px 29px;
+            }
+          }
+        }
+        .banner_cards {
+          margin-top: 80px;
+          columns: 2;
+          .card_section {
+            display: block;
+
+            .card3,
+            .card4,
+            .card5,
+            .card6 {
+              margin-top: 10px;
+              width: 100%;
+              .card-body {
+                text-align: center;
+              }
+            }
+            .card1,
+            .card2,
+            .card7 {
+              width: 100%;
+              .card-body {
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+    .visionary_support {
+      .icons {
+        .three_column {
+          height: 400px;
+        }
+      }
+    }
+    .wall_of_visionaries {
+      .text {
+        h6 {
+          font-size: 70px;
+          padding: 0 160px;
+        }
+        h5 {
+          font-size: 22px;
+          padding: 0px 20px;
+        }
+      }
+      .card_section {
+        .card-img1 {
+          img {
+            top: 150px;
+            left: 60px;
+            margin-top: 25px;
+          }
+        }
+        .card-img2 {
+          img {
+            top: 287px;
+            left: 115px;
+            margin-top: 25px;
+          }
+        }
+        .card-img3 {
+          img {
+            top: 130px;
+            right: 56px;
+            margin-top: 25px;
+          }
+        }
+        .card-img4 {
+          img {
+            bottom: -153px;
+            right: 80px;
+            margin-top: 25px;
+          }
+        }
+      }
+    }
+    .village_profiles {
+      padding: 60px 0 70px;
+    }
+
+    .footer {
+      .logo_icons {
+        display: block;
+      }
+      &_links {
+        padding: 25px 0;
+        h5 {
+          font-size: 24px;
+        }
+      }
+      .social_icons {
+        margin: 20px 13px;
+      }
+    }
+  }
+}
+// @media screen and (min-width: 768px) {
+//   .sightsaver {
+//     .timeline {
+//       overflow-x: scroll;
+//     }
+//   }
+// }
+@media screen and (max-width: 767px) {
+  .sightsaver {
+    .banner {
+      .background {
+        &_text {
+          h1 {
+            font-size: 45px;
+            padding: 0;
+          }
+          .button_group {
+            .btn2 {
+              padding: 15px 29px;
+            }
+          }
+        }
+        .banner_cards {
+          margin-top: 80px;
+          .card_section {
+            display: block;
+
+            .card3,
+            .card4,
+            .card5,
+            .card6 {
+              margin-top: 10px;
+              width: 100%;
+              .card-body {
+                text-align: center;
+              }
+            }
+            .card1,
+            .card2,
+            .card7 {
+              width: 100%;
+              .card-body {
+                text-align: center;
+              }
+            }
+          }
+        }
+      }
+    }
+    .visionary_support {
+      .icons {
+        .three_column {
+          margin-top: 15px;
+        }
+      }
+    }
+
+    .wall_of_visionaries {
+      .text {
+        h6 {
+          font-size: 70px;
+        }
+        h5 {
+          font-size: 20px;
+          padding: 0px 20px;
+        }
+      }
+      .card_section {
+        .card-img1 {
+          img {
+            top: 330px;
+            left: 60px;
+            margin-top: 25px;
+          }
+        }
+        .card-img2 {
+          img {
+            top: 482px;
+            left: 60px;
+            margin-top: 25px;
+          }
+        }
+        .card-img3 {
+          img {
+            bottom: 0;
+            top: 482px;
+            right: 56px;
+            margin-top: 25px;
+          }
+        }
+        .card-img4 {
+          img {
+            bottom: -168px;
+            right: 56px;
+            margin-top: 25px;
+          }
+        }
+      }
+    }
+    .village_profiles {
+      padding: 245px 0 70px;
+    }
+
+    .footer {
+      .logo_icons {
+        display: block;
+      }
+      &_links {
+        padding: 25px 0;
+        h5 {
+          font-size: 24px;
+        }
+        .info {
+          padding-top: 25px;
+        }
+      }
+      .social_icons {
+        margin: 20px 13px;
+      }
+    }
+  }
+}
+@media screen and (min-width: 425px) {
+  .sightsaver {
+    // .timeline {
+    //   overflow-x: scroll;
+    // }
+    .wall_of_visionaries {
+      .card_section {
+        .card-img1 {
+          img {
+            margin-top: 0;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 460px) {
+  .timeline > li > p {
+    font-size: 14px;
+    text-transform: capitalize !important;
+    padding: 15px 15px;
+    line-height: 17px;
+  }
+
+  .two {
+    transform: translate(4px, -317px);
+  }
+}
+@media screen and (min-width: 375px) {
+  .sightsaver {
+    .banner {
+      .background {
+        .banner_cards {
+          .card_section {
+            .card1 {
+              .card-body {
+                .card_btn {
+                  padding: 18px 61px;
+                }
+              }
+            }
+            .card4 {
+              .card-body {
+                padding: 84px 20px 15px;
+              }
+            }
+            .card6 {
+              .card-body {
+                .card_btn {
+                  padding: 18px 61px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+    // .timeline {
+    //   overflow-x: scroll;
+    // }
+  }
+}
